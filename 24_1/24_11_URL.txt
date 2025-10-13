@@ -1,0 +1,7 @@
+foo://example.com:8042/over/there?name=ferret#nose
+
+foo - scheme : 리소스에 접근하는 방법이나 프로토콜
+example.com:8042 - authority : 사용자 정보, 호스트명, 포트 번호
+over/there - path : 서버 내의 특정 자원을 가리키는 경로
+name=ferret - query : 서버에 전달할 추가 데이터
+nose - fragment : 특정 문서 내의 위치
