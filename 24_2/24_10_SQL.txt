@@ -1,0 +1,37 @@
+DDL(데이터 정의어)
+    CREATE
+        CREATE UNUQUE INDEX 고객번호_idx
+        ON 고객(고객번호 DESC)
+
+    ALTER
+    ALTER TABLE 학생 ADD 학년 VARCHAR(3)
+    ALTER TABLE 학생 ALTER 학번 VARCHAR(10) NOT NULL
+
+    DROP
+    DROP TABLE 학생 CASCADE
+
+DCL(데이터 제의어)
+    COMMIT
+    ROLLBACK
+    GRANT
+        GRANT ALL ON 고객 TO NABI WITH GRANT OPTION
+
+    REVOKE
+        REVOKE GRANT OPTION FOR UPDATE ON 고객 FROM STAR
+
+DML(데이터 조작어)
+    SELECT
+        SELECT
+        FROM
+        WHERE
+        GROUP BY 속성, 속성
+        HABING 조건
+        ORDER BY 속성명 ASC OR DESC
+    INSERT
+        INSERT INTO 사원(이름, 부서) VALUES('홍승현', '인터넷')
+    DELETE
+        DELETE FROM 사원 WHERE 이름='임꺽정'
+    UPDATE
+        UPDATE 사원
+        SET 부서 = '기획', 기본급 = 기본급 + 5
+        WHERE 이름 = '황진이'
