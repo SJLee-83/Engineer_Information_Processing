@@ -2,6 +2,9 @@
     "files.associations": {
         "24_5.C": "cpp",
         "24_6.C": "cpp",
-        "24_9.C": "cpp"
+        "24_9.C": "cpp",
+        "3_1_1.C": "cpp",
+        "1_1_1.C": "cpp",
+        "1_1_13.C": "cpp"
     }
 }
