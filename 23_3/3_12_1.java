@@ -53,6 +53,8 @@ public class Test {
 
 //     public Person(String val) {
 //         // this 대신 클래스 이름을 사용하여 static 변수임을 명확히 할 수 있음
+
+
 //         Person.name = val;
 //     }
 
